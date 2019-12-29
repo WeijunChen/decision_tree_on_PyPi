@@ -4,15 +4,14 @@
 The purpose of this project is getting familiar with putting self-built tool on PyPi.
 
 #### PyPi Project Page
-This is the PyPi project [page](https://pypi.org/project/playground-decision-tree/)
+This is the PyPi project [page](https://pypi.org/project/playground-decision-tree/).
 
 #### Project Description
 Built a decision tree classifier from sratch using gini index as split criterion. 
 
 Please using `pip install playground-decision-tree` to install the package from PyPi.
 
-Below is an example of using the package
-
+Below is an example of using the package:
 ```
 from playground_decision_tree import DecisionTreeClassifier
 from sklearn.datasets import load_iris
