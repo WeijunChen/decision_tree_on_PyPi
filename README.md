@@ -25,7 +25,8 @@ clf = DecisionTreeClassifier(max_depth=5)
 clf.fit(X, y)
 
 # predict
-print(clf.predict([[5.1, 3.5, 1.4, 0.2]]))
+>>> print(clf.predict([[5.1, 3.5, 1.4, 0.2]]))
+[2]
 
 ```
 
